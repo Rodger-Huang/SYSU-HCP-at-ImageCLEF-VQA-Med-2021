@@ -120,7 +120,7 @@ def main(args):
             acc += 1
             num_right[label] += 1
         else:
-            wrong_name[label].append(sample_batched['label_name'][0])
+            wrong_name[label].append(sample_batched['ID'][0])
     
         if torch.argmax(feats_pp, dim=1, keepdim=False) == label:
             acc_pp += 1
@@ -128,7 +128,7 @@ def main(args):
 
     acc /= len(valset)
     acc_pp /= len(valset)
-    record_path = args.csv_path + 'epoch' + str(model['epoch']) + "_" + str(acc) + "_" + str(acc_pp) + '.csv'
+    record_path = os.path.join(args.csv_path, 'epoch' + str(model['epoch']) + "_" + str(acc) + "_" + str(acc_pp) + '.csv')
     f = open(record_path, 'w')
     writer = csv.writer(f)
     writer.writerow(('category', 'number', 'right', 'right_pp', 'percentage', 'wrong_name'))
