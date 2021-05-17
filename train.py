@@ -113,7 +113,7 @@ def main(rank, args):
             args.backbone == 'resnest50' or args.backbone == 'resnest101':
         backbone = eval(args.backbone)(pretrained=True)
         backbone.fc = nn.Linear(in_features=backbone.fc.in_features, out_features=args.classes)
-        # # 以下做法是没用的，输出类别仍然为1000
+        # # The following operation is not working. The output classes are still 1000.
         # backbone.fc.out_features = args.classes
     elif args.backbone == 'vgg16' or args.backbone == 'vgg16_bn' or \
             args.backbone == 'vgg19' or args.backbone == 'vgg19_bn':
