@@ -131,14 +131,14 @@ def main(args, test_pbar):
 
 if __name__ == '__main__':
     arg_list = [
-        ('resnet50', 256, 'run/res50/models/backbone_epoch-49_1.0000_1.0000.pth'),
-        ('resnet50HGap', 256, 'run/res50hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
-        ('resnest50', 256, 'run/ress50/models/backbone_epoch-29_0.9980_0.9980.pth'),
-        ('resnest50HGap', 256, 'run/ress50hgap/models/backbone_epoch-29_1.0000_1.0000.pth'),
-        ('vgg16', 224, 'run/vgg16/models/backbone_epoch-49_1.0000_1.0000.pth'),
-        ('vgg16HGap', 224, 'run/vgg16hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
-        ('vgg19', 224, 'run/vgg19/models/backbone_epoch-49_1.0000_1.0000.pth'),
-        ('vgg19HGap', 224, 'run/vgg19hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('resnet50', 256, 'VQA-MED-2021-Models/res50/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('resnet50HGap', 256, 'VQA-MED-2021-Models/res50hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('resnest50', 256, 'VQA-MED-2021-Models/ress50/models/backbone_epoch-29_0.9980_0.9980.pth'),
+        ('resnest50HGap', 256, 'VQA-MED-2021-Models/ress50hgap/models/backbone_epoch-29_1.0000_1.0000.pth'),
+        ('vgg16', 224, 'VQA-MED-2021-Models/vgg16/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('vgg16HGap', 224, 'VQA-MED-2021-Models/vgg16hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('vgg19', 224, 'VQA-MED-2021-Models/vgg19/models/backbone_epoch-49_1.0000_1.0000.pth'),
+        ('vgg19HGap', 224, 'VQA-MED-2021-Models/vgg19hgap/models/backbone_epoch-49_1.0000_1.0000.pth'),
     ]
 
     composed_transforms_test = transforms.Compose([
