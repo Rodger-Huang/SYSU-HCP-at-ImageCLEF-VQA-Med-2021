@@ -35,6 +35,10 @@ conda install pip
 pip install -r requirements.txt
 ```
 
+## Datasets
+
+The training set, validation set and test set can be downloaded from the [Google Drive](https://drive.google.com/file/d/1ovF5HF4t49ZJ8YMmaydfvcfeOf08h3yR/view?usp=sharing) directly and should be put in the `data` folder. 
+
 ## Training
 
 You can train the model from scratch. The command and corresponding parameters are as follows:
@@ -51,9 +55,7 @@ python validation.py -model_path <checkpoint.pth> -csv_path <path_to_save_evalua
 
 ## Pretrained models for VQA-Med 2021
 
-We provide the pretrained models for VQA-Med 2021. 
-
-[Baidu Cloud](https://pan.baidu.com/s/1Q-P4mqmq2jFDQ2DyYenbqw) code:i1nn
+We provide the pretrained models for VQA-Med 2021 in [Google Drive](https://drive.google.com/file/d/1tsTlAD6VDVhTd-9ocLEmgcoXZKBJqdnS/view?usp=sharing) and [Baidu Cloud](https://pan.baidu.com/s/1Q-P4mqmq2jFDQ2DyYenbqw) (code:i1nn). 
 
 After downloading the models, you can get the result by the following command:
 ```bash
