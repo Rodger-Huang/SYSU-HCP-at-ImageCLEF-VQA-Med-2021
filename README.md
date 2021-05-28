@@ -35,6 +35,10 @@ conda install pip
 pip install -r requirements.txt
 ```
 
+## Models
+
+The [ResNeSt](https://github.com/zhanghang1989/ResNeSt) needs to be installed before using.
+
 ## Datasets
 
 The training set, validation set and test set can be downloaded from the [Google Drive](https://drive.google.com/file/d/1ovF5HF4t49ZJ8YMmaydfvcfeOf08h3yR/view?usp=sharing) directly and should be put in the `data` folder. 
