@@ -92,8 +92,8 @@ def print0(string):
         print(string)
 
 def main(rank, args):
+    name = '{}_{}_{}'.format(args.backbone, args.input_size, args.train_set)
     if not args.dryrun and rank == 0:
-        name = '{}_{}_{}'.format(args.backbone, args.input_size, args.train_set)
         if args.mixup:
             name += '_mixup'
         if args.label_smooth:
