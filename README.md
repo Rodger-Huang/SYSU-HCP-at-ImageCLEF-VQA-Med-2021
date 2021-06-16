@@ -1,21 +1,6 @@
 # SYSU-HCP-at-ImageCLEF-VQA-Med-2021
 <!-- This repository is the official implementation of paper [HCP-MIC at VQA-Med 2020: Effective Visual Representation for Medical Visual Quesion Answering](http://ceur-ws.org/Vol-2696/paper_74.pdf). -->
 
-<!-- ## Citing this repository
-If you find this code useful in your work, please consider citing us:
-
-```
-@inproceedings{chen2020hcp-mic,
-  author    = {Guanqi Chen and
-               Haifan Gong and
-               Guanbin Li},
-  title     = {{HCP-MIC} at VQA-Med 2020: Effective Visual Representation for Medical Visual Question Answering},
-  booktitle = {Working Notes of {CLEF} 2020 - Conference and Labs of the Evaluation Forum, Thessaloniki, Greece, September 22-25, 2020},
-  series    = {{CEUR} Workshop Proceedings},
-  volume    = {2696},
-  year      = {2020},
-}
-``` -->
 
 ## Main requirements
 
@@ -72,3 +57,19 @@ python inference_ensemble_once.py
 If you have any questions about our work, please do not hesitate to contact us by emails.
 
 Haifan Gong: haifangong@outlook.com -->
+
+## Citing this repository
+If you find this code useful in your work, please consider citing us:
+
+```
+@inproceedings{gong2021sysu-hcp,
+  author    = {Haifan Gong and
+            Ricong Huang and
+            Guanqi Chen and
+            Guanbin Li},
+  title     = {SYSU-HCP at VQA-Med 2021: A Data-centric Model with Efficient Training Methodology for Medical Visual Question Answering},
+  booktitle = {CLEF 2021 -- Conference and Labs of the Evaluation Forum, September 21--24, 2021, Bucharest, Romania},
+  series    = {CEUR Workshop Proceedings},
+  year      = {2021},
+}
+```
