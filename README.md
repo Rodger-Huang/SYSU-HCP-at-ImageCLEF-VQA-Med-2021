@@ -64,9 +64,9 @@ If you find this code useful in your work, please consider citing us:
 ```
 @inproceedings{gong2021sysu-hcp,
   author    = {Haifan Gong and
-            Ricong Huang and
-            Guanqi Chen and
-            Guanbin Li},
+               Ricong Huang and
+               Guanqi Chen and
+               Guanbin Li},
   title     = {SYSU-HCP at VQA-Med 2021: A Data-centric Model with Efficient Training Methodology for Medical Visual Question Answering},
   booktitle = {CLEF 2021 -- Conference and Labs of the Evaluation Forum, September 21--24, 2021, Bucharest, Romania},
   series    = {CEUR Workshop Proceedings},
