@@ -1,6 +1,8 @@
 # SYSU-HCP-at-ImageCLEF-VQA-Med-2021
-<!-- This repository is the official implementation of paper [HCP-MIC at VQA-Med 2020: Effective Visual Representation for Medical Visual Quesion Answering](http://ceur-ws.org/Vol-2696/paper_74.pdf). -->
+This repository is the official implementation of paper [SYSU-HCP at VQA-Med 2021: A Data-centric Model with Efficient Training Methodology for Medical Visual Question Answering](https://www.researchgate.net/profile/Haifan-Gong-2/publication/357575887_SYSU-HCP_at_VQA-Med_2021_A_Data-centric_Model_with_Efficient_Training_Methodology_for_Medical_Visual_Question_Answering/links/61d51c98da5d105e551cf011/SYSU-HCP-at-VQA-Med-2021-A-Data-centric-Model-with-Efficient-Training-Methodology-for-Medical-Visual-Question-Answering.pdf).
 
+We won first prize in [ImageCLEF 2021 VQA-Med - VQA](https://www.aicrowd.com/challenges/imageclef-2021-vqa-med-vqa/leaderboards).
+![](figs/leaderboard.png)
 
 ## Main requirements
 
